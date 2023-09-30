@@ -1,0 +1,29 @@
+{
+    "name": "asile/ninja",
+    "description": "Hide part of a post to untrusted users.",
+    "type": "flarum-extension",
+    "keywords": [
+        "formatting"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.lesitedecuisine.fr",
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asile\\Ninja\\": "src"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Ninja",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-bold",
+                "backgroundColor": "#238C59",
+                "color": "#fff"
+            }
+        }
+    }
+}

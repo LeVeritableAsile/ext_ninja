@@ -1,0 +1,4 @@
+asile-ninja:
+  admin:
+    permissions:
+      see_ninja_quotes: See ninja quotes
